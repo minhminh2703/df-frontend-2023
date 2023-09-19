@@ -2,3 +2,53 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.header{
+  width: 100%;
+  
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  position:sticky;
+  top:0;
+  left:0;
+  position: absolute;
+  /* height: 10vh; */
+  width: 100%;
+  font-family: Anton;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0 1rem;
+  align-self: center;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding: 0 1.5rem;
+  align-self: center;
+}
+
+.name_user{
+  font-size: 1.2rem;
+  font-family:Signika;
+  font-weight: 200;
+  /* padding: 0 1rem; */
+  padding-left: 0.5rem;
+  align-self: center;
+}
+img{
+  height: 9vh;
+  width: 9vh;
+  border-radius: 50%;
+  object-fit: cover;
+  /* margin: 10px; */
+}
