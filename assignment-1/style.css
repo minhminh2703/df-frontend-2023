@@ -101,3 +101,58 @@ button:hover{
   background-color: #D2001A;
   color: white;
 }
+
+table{
+  width: 80%;
+  position:absolute;
+  left: 10%;
+  top: 12rem;
+  text-align: left;
+  font-family: Signika;
+  border: 2px #9BA4B5 solid;
+  border-radius: 0.3rem;
+  border-collapse: collapse;
+}
+
+.namebook{
+  width: 40%;
+}
+
+.authorbook{
+  width: 22.5%;
+}
+
+.topicbook{
+  width: 22.5%;
+}
+
+.actionbook{
+  width: 15%;
+}
+
+
+th,td{
+  /* padding-left: 0.5rem; */
+  /* align-items: left; */
+  border-collapse: collapse;
+  border: 2px #9BA4B5 solid;
+  padding-bottom: 0.5rem;
+  padding-left: 10px;
+  font-family: Signika;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #9BA4B5;
+}
+
+
+.namebook, .authorbook, .topicbook, .actionbook{
+  padding: 0.5rem 0 0.5rem 10px;
+  color:black;
+  font-weight: 600;
+}
+
+.delete{
+  color:#D2001A;
+  cursor: pointer;
+  text-decoration: underline;
+}
